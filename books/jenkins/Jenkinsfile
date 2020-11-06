@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-        DEV_PROJECT = "${RHT_OCP4_DEV_USER}-books-dev"
-        STAGE_PROJECT = "${RHT_OCP4_DEV_USER}-books-stage"
+        DEV_PROJECT = "harry-budiman-tufts-health-c-books-dev"
+        STAGE_PROJECT = "harry-budiman-tufts-health-c-books-stage"
         APP_GIT_URL = "https://github.com/hbudiman/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.na45.prod.nextcle.com/repository/nodejs"
 
