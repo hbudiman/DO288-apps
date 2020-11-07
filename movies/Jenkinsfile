@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         DEV_PROJECT = "harry-budiman-tufts-health-c-movies-dev"
-        STAGE_PROJECT = "harry_budiman0tufts-health-c-movies-stage"
+        STAGE_PROJECT = "harry_budiman-tufts-health-c-movies-stage"
         APP_GIT_URL = "https://github.com/hbudiman/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.na45.prod.nextcle.com/repository/java"
 
